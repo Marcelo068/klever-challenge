@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat' !important;
+  background-color: #13152a !important;
+  color: white !important;
+}
+
+h1, h2 {
+  font-family: 'Montserrat-Bold' !important;
+}
+
+h1{
+  font-size: 35px !important;
+}
+
+h2 {
+  font-size: 22px !important;
+}
+
+
+.label {
+  font-family: 'Montserrat-Bold' !important;
+}
+
+.input {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 8px 0;
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  text-align: center;
+  border: none !important;
+  cursor: pointer;
+
+  &.button-blue {
+    background-color: #aa33b5;
+  }
+
+  &.button-gray {
+    background-color: #646464;
+  }
+
+  &.button-red {
+    background-color: #920000;
+  }
+}
+
+.button:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+.table > tbody > tr > td,
+.table > thead > tr > th {
+  border: 0 !important
+}

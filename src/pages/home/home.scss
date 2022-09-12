@@ -1,0 +1,21 @@
+.table {
+  color: white !important;
+  width: 91% !important;
+
+  td {
+    font-size: 35px;
+    font-family: 'Montserrat-Bold' !important;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    text-align: end;
+  }
+}
+
+.edit-content {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  padding: 8px;
+}
