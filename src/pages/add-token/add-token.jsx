@@ -24,8 +24,6 @@ function AddToken() {
   };
 
   const TokenExist = (token) => {
-    console.log('kk', errors)
-
     if (currentData) {
       const canSave = currentData.findIndex(item => item.token === token)
       return canSave >= 0 ? 'Token already insert' : true
