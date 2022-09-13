@@ -16,7 +16,7 @@ function Layout() {
           </div>
         </div>
         <div className="row justify-content-center pt-2">
-          <div className="col-6 d-flex justify-content-between align-items-center">
+          <div className="col-10 col-lg-6 d-flex justify-content-between align-items-center">
             <div className="d-flex align-items-center">
               <WishLogo fill='yellow' height={55} width={55} alt="Logo wish wallet" />
               <h1 className="ps-2 m-0">Wish Wallet</h1>

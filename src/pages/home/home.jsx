@@ -13,7 +13,7 @@ function Home() {
     <div className="container mt-5">
       {data && data.length > 0 &&
         <div className="row justify-content-center">
-          <div className="col-12 col-lg-6 d-flex justify-content-end">
+          <div className="col-10 col-lg-6 d-flex justify-content-end">
             <table className="table">
               <thead>
                 <tr>

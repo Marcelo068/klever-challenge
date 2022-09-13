@@ -52,13 +52,13 @@ function EditToken() {
   return (
     <div className="container mt-5">
       <div className="row justify-content-center">
-        <div className="col-5 d-flex justify-content-between align-items-end">
+        <div className="col-10 col-lg-5 d-flex justify-content-between align-items-end">
           <h2 className="m-0">Edit Token</h2>
           <Link to="/" className="button button-gray" >Voltar</Link>
         </div>
       </div>
       <div className="row justify-content-center mt-5">
-        <div className="col-5">
+        <div className="col-10 col-lg-5">
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="d-flex flex-column mb-4">
               <label htmlFor="token" className="label mb-2">Token</label>
